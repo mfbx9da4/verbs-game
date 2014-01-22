@@ -5,11 +5,11 @@ verbs-game
 
 Levels:
 
-- to be, to go, to have, to be able present
-- to be, to go, to have, to be able past
-- to be, to go, to have, to be able simple future
-- walk, talk, eat, drink present, past, simple future
-- other more important verbs
-- conditional
-- can introduce targets of verbs and connections later
-- other tenses
+1. to be, to go, to have, to be able present
+2. to be, to go, to have, to be able past
+3. to be, to go, to have, to be able simple future
+4. walk, talk, eat, drink present, past, simple future
+5. extend to more verbs (precisar, fazer, querer, saber, encontrar, conseguir, pensar, conhecer, ver, pegar, emborar, olhar, ouvir, escutar, sair)
+6. conditional
+7. can introduce targets of verbs and connections later
+8. other tenses
