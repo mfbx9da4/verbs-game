@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row">
+    <div class=" col-md-12 progress">
+      <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: {{percent_complete}}%">
+       <span class="sr-only">{{percent_complete}}% Complete</span>
+      </div>
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 col-lg-6">
+            <p ng-model="question" id="question">{{ question }}</p>
+        </div>
+        <div class="col-md-6 col-lg-6 " >
+            <input id="response" ng-model="response" class="form-control" type="text">
+        </div>
+    </div>
+    <hr>
+    <div class="row">  
+        <div ng-show="answer_submitted" class="col-md-6 col-lg-6">
+            <p>{{answer_status_text}}</p>  
+            <ul>
+                <li ng-repeat="answer in answers">{{ answer }}</li>
+            </ul>
+            <p id="info"></p>
+        </div>
+        <div class="col-md-6 col-lg-6 ">
+            <button class="btn btn-success" ng-click="submit()" type="">{{button_text}}</button>
+        </div>
+        
+    </div>
+
+</div>

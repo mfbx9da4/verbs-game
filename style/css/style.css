@@ -1,0 +1,25 @@
+/* Put your CSS here */
+#editor {
+	font-size: 15px;
+	width: 100%;
+	height: 800px;
+}
+
+body {
+  min-height: 2000px;
+}
+
+.navbar-static-top {
+  margin-bottom: 19px;
+}
+
+::selection {
+	background-color: #2a9fd6;
+	color: white;
+}
+
+::-moz-selection {
+	background-color: #2a9fd6;
+	color: white;
+}
+
